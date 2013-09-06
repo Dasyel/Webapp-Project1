@@ -15,6 +15,7 @@ possible about the picture to be able to answer the question without being able 
  -  Show leaderboards
  -  Possibility for users to create own questions
  -  Manage questions (add/delete/edit)
+ -  Manage account (change password etc.)
  -  The game itself providing random questions until user quits
  -  Feedback system to get rid of trash questions
  
