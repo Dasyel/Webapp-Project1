@@ -2,7 +2,6 @@ AppStudio Project 1 by Dasyel Willems (10172548)
 
 # B-aware #
 
-
 +   __Title__:     B-Aware
 
 +   __Summary__:   A simple game in which the user gets to see a picture (or video) for a limited time and afterwards 
@@ -20,7 +19,7 @@ possible about the picture to be able to answer the question without being able 
  -  Feedback system to get rid of trash questions
  
 +   __Used Resources__: 
- -  *CodeIgniter*, although *Ruby on Rails* is encouraged it is not required and *RoR* is already getting on my nerves 
+ -  *CodeIgniter 2.1.4*, although *Ruby on Rails* is encouraged it is not required and *RoR* is already getting on my nerves 
  as I am used to *PhP* frameworks like *CodeIgniter* and *CakePhP*. Because I like a sense of control I prefer *CI*
  over *Cake* and *RoR*.
  -  *JQuery Mobile* for the front-end.
