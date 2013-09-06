@@ -18,5 +18,13 @@ possible about the picture to be able to answer the question without being able 
  -  Manage questions (add/delete/edit)
  -  The game itself providing random questions until user quits
  -  Feedback system to get rid of trash questions
+ 
++   __Used Resources__: 
+ -  *CodeIgniter*, although *Ruby on Rails* is encouraged it is not required and *RoR* is already getting on my nerves 
+ as I am used to *PhP* frameworks like *CodeIgniter* and *CakePhP*. Because I like a sense of control I prefer *CI*
+ over *Cake* and *RoR*.
+ -  *JQuery Mobile* for the front-end.
+ 
++   __Mockups__:    *To be done*
 
 
