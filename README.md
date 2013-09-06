@@ -10,7 +10,13 @@ gets a question about the picture. This means the user will have to try to take 
 possible about the picture to be able to answer the question without being able to see the picture again.
 
 +   __Features__:   
- -   Create/delete account
- -   Login/logout
+ -  Create/delete account
+ -  Login/logout
+ -  Show user statistics
+ -  Show leaderboards
+ -  Possibility for users to create own questions
+ -  Manage questions (add/delete/edit)
+ -  The game itself providing random questions until user quits
+ -  Feedback system to get rid of trash questions
 
 
