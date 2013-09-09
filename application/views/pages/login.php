@@ -26,7 +26,10 @@
 <br/>
 
 <h2>Login</h2>
-<?php echo form_open('users/login') ?>
+
+<?php echo $login_message; ?>
+
+<?php echo form_open('user/login') ?>
 
     <?php echo form_error('username'); ?>
 	<label for="username">Username/Email</label>
