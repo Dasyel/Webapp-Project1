@@ -26,6 +26,6 @@ possible about the picture to be able to answer the question without being able 
  -  *JQuery Mobile* for the front-end.
  
 +   __Mockups__:
-![mockups.PNG](/mockups.png "Mockups of some screens")
+![mockups.PNG](https://raw.github.com/Dasyel/Webapp-Project1/master/mockups.png "Mockups of some screens")
 
 
