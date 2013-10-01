@@ -25,6 +25,7 @@ possible about the picture to be able to answer the question without being able 
  over *Cake* and *RoR*.
  -  *JQuery Mobile* for the front-end.
  
-+   __Mockups__:    *To be done*
++   __Mockups__:
+![mockups.PNG](./mockups.png "Mockups of some screens")
 
 

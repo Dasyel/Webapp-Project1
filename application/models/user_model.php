@@ -28,7 +28,36 @@ class User_model extends CI_Model {
             $row = $query->row(); 
             return $row->id;
         }
-        
+    }
+    
+    public function get(){
+        $id = $this->session->userdata('user_id');
+        $query = $this->db->get_where('users', array('id' => $id));
+        return $query->row();
+    }
+    
+    public function edit(){
+        $id = $this->session->userdata('user_id');
+        $password = sha1($this->input->post('password'));
+        $email_query = $this->db->get_where('users', array('email' => $this->input->post('email')));
+        if ($email_query->num_rows() != 0){
+            if ($email_query->row()->id != $id){
+                return 'Email Address already in use';
+            }
+        }
+        $query = $this->db->get_where('users', array('id' => $id, 'password' => $password));
+        if ($query->num_rows() == 0){
+            return 'Wrong Password';
+        } else {
+            $data = array(
+               'email' => $this->input->post('email'),
+               'password' => sha1($this->input->post('new_password')),
+            );
+
+            $this->db->where('id', $id);
+            $this->db->update('users', $data);
+            return TRUE;
+        }
     }
 }
 ?>
