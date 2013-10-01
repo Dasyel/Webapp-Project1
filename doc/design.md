@@ -12,6 +12,7 @@ AppStudio Project 1 by Dasyel Willems (10172548)
         * correct
     - Questions:  
         * id
+        * user_id
         * name
         * question
         * right_answer
@@ -22,6 +23,10 @@ AppStudio Project 1 by Dasyel Willems (10172548)
         * resource
         * done
         * reports
+    - User_Question:  
+        * id
+        * user_id
+        * question_id
         
 + __Pages__:
     - Login:
