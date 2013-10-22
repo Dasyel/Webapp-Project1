@@ -110,3 +110,15 @@ AppStudio Project 1 by Dasyel Willems (10172548)
         * logged_or_redirect() - redirects to the login page if the user is not logged in (used on every controller except User.login and User.create)
         * not_logged_or_redirect() - redirects to home page if user is logged in (only used on the User.login and User.create controllers)
         
++ __Style__:
+    - Javascript:
+        I wont be writing much javascript so I'll just follow the provided google javascript styleguide: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+    - PHP:
+        Pretty much the standard conventions:
+        * function names using underscores for multiple words (e.g. this_function())
+        * variable names using camelCase.
+        * code block opening bracket on same line as the head. The closing bracket one line after body and alligned with start of head.
+        * blank lines before and after code blocks like for-loops.
+    - Html:
+        I'll follow the google html and css styleguide: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+        
