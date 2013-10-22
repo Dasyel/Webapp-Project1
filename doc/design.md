@@ -73,5 +73,40 @@ AppStudio Project 1 by Dasyel Willems (10172548)
         * next button (links to a new question (pic/video) page)
         * home button (links to home page)
         * this-is-wrong button (adds 1 to the amount of reports on this question)
+    - Reports overview (admin page):
+        * questions ordered by reports (high->low)
+        * for every question its contents and a delete button.
+
++ __Controllers__:
+    - Home:
+        * index() - Loads the home page.
+    - Question:
+        * index() - Loads the users manage questions page.
+        * create() - Loads and handles the create question form.
+        * delete($id) - Deletes a question by its id.
+        * edit($id) - Loads and handles the edit question form.
+        * get() - loads the question (pic/video) page for a random not-yet-done question.
+    - User:
+        * login() - Loads and handles the login form, sets session data.
+        * logout() - Removes the session data.
+        * create() - Loads and handles the create account form.
+        * show() - Loads the manage account page
+        * edit() - Loads and handles the edit account form.
         
++ __Models__:
+    - Question-model:
+        * create() - Adds new question to the database.
+        * get($id) - Gets a question by id, if no id is given it gets all questions of this user.
+        * delete($id) - Deletes a question by id.
+        * edit($id) - Edits a question by id.
+    - User-model:
+        * create() - Adds new account to the database.
+        * get() - Gets the current users account.
+        * edit() - Edits the current users account.
+        * check_credentials() - Checks for login validity.
+        
++ __Helpers__:
+    - login_helper:
+        * logged_or_redirect() - redirects to the login page if the user is not logged in (used on every controller except User.login and User.create)
+        * not_logged_or_redirect() - redirects to home page if user is logged in (only used on the User.login and User.create controllers)
         
